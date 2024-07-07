@@ -1,12 +1,17 @@
-# weather-app
+# Aplikácia na Zobrazenie Počasia
 
-This template should help get you started developing with Vue 3 in Vite.
+Jednoduchá aplikácia na zobrazenie aktuálnych počasíových podmienok, postavená s Vue.js, ktorá umožňuje používateľom skontrolovať aktuálne počasie na základe vyhľadávania podľa mesta.
 
-## Recommended IDE Setup
+## Funkcie
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Načíta počasie z OpenWeatherMap API.
+- Dynamicky mení pozadie podľa teploty (teplé alebo studené).
+- Zobrazuje aktuálnu teplotu, počasie, lokalitu a dátum.
 
-## Customize configuration
+## Použité Technológie
+
+- Vue.js
+- OpenWeatherMap API
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
